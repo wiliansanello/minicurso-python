@@ -23,7 +23,13 @@ class RepositorioLivros:
             )
             db.session.add(livro)
             db.session.commit()
-            return livro
+            
+            resultado = {
+                "isbn": livro.isbn
+            }
+
+            db.session.close()
+            return resultado
 
     def atualizar(self, isbn, titulo=None, autor=None, ano=None):
         with DBConnectionHandler() as db:

@@ -45,7 +45,7 @@ def criar():
         ano=data["ano"]
     )
 
-    return jsonify({"msg": "Livro criado", "isbn": livro.isbn}), 201
+    return jsonify({"msg": "Livro criado", "isbn": livro["isbn"]}, 201)
 
 #PUT - Altera informações do livro
 @livros_bp.route("/<int:isbn>", methods=["PUT"])

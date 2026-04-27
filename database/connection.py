@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 class DBConnectionHandler:
 
     def __init__(self) -> None:
-        self.__connection_string = "sqlite:///database/library.db"
+        self.__connection_string = "sqlite:///database/livraria.db"
         self.__engine = self.__create_database_engine()
         self.session = None
 

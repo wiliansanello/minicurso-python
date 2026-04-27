@@ -1,2 +1,2 @@
-from .base import Base
-from .entities import autor, genero, livro
+from . import base
+from .entities import livro
