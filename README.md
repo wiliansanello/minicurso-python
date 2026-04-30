@@ -1,6 +1,6 @@
 # API PARA GERENCIAMENTO DE ACERVO DE LIVROS
 
-## ARQUITETURA DA APLICAÇÃO
+## ARQUITETURA 
 
 ```
 📦 projeto/
@@ -30,11 +30,11 @@ Scripts da raiz:
 - **Postman**: Aplicação útil para teste e validação e APIs REST.
 - **SQLite3 Studio** ou **DBeaver**: Cliente de interface gráfica para execução de comandos no banco de dados. Usada para executar o script de criação de tabelas.
 
-## REQUISITOS PARA EXECUTAR A APLICAÇÃO
+## REQUISITOS PARA RODAR O PROJETO
 - Python 3.13 ou superior instalado no computador
 - Recomenda-se fortemente criar um ambiente virtual (usando a ferramenta venv) para execução da aplicação. Na raiz do projeto, rode os comandos ```python -m venv venv``` para criar o ambiente virtual e ```venv\Scripts\activate``` (para Windows) ```source venv/bin/activate``` para Linux e Mac OS. Segue link da documentação para mais detalhes: https://docs.python.org/pt-br/3/library/venv.html
 
-## COMO INSTALAR A APLICAÇÃO
+## COMO INSTALAR 
 - **Criação do banco**: Crie um arquivo .db usando o SQLite3 Studio ou DBeaver.
 - Ache a funcionalidade de execução de comandos SQL da ferramenta para executar o script ```tabela.sql```para criar as tabelas.
 - **Instalação de dependências**: Instala as dependências contidas no arquivo requirements.txt .
