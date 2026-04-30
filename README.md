@@ -2,6 +2,7 @@
 
 ## ARQUITETURA DA APLICAÇÃO
 
+```
 📦 projeto/
 ├── database/
 ├── model/
@@ -10,7 +11,7 @@
 ├── routes/
 ├── app.py
 └── create_db.py
-
+```
 - **database**: Pasta com scripts e arquivo do banco de dados
 - **Model**: Contém as entidades e repositórios, além do script que implementa a base declarativa, usada para comunicação com o banco de dados no propósito de realizar o mapeamento de classes da aplicação web para as entidades do banco
   - **entities**: Entidades da aplicação, declaradas para o mapeamento de classes para as tabelas (entidades) do banco
@@ -27,16 +28,20 @@ Scripts da raiz:
 
 ## FERRAMENTAS AUXILIARES NO DESENVOLVIMENTO
 - **Postman**: Aplicação útil para teste e validação e APIs REST.
+- **SQLite3 Studio** ou **DBeaver**: Cliente de interface gráfica para execução de comandos no banco de dados. Usada para executar o script de criação de tabelas.
 
 ## REQUISITOS PARA EXECUTAR A APLICAÇÃO
 - Python 3.13 ou superior instalado no computador
 - Recomenda-se fortemente criar um ambiente virtual (usando a ferramenta venv) para execução da aplicação. Na raiz do projeto, rode os comandos ```python -m venv venv``` para criar o ambiente virtual e ```venv\Scripts\activate``` (para Windows) ```source venv/bin/activate``` para Linux e Mac OS. Segue link da documentação para mais detalhes: https://docs.python.org/pt-br/3/library/venv.html
 
-## COMANDOS ÚTEIS
+## COMO INSTALAR A APLICAÇÃO
+- **Criação do banco**: Crie um arquivo .db usando o SQLite3 Studio ou DBeaver.
+- Ache a funcionalidade de execução de comandos SQL da ferramenta para executar o script ```tabela.sql```para criar as tabelas.
 - **Instalação de dependências**: Instala as dependências contidas no arquivo requirements.txt .
     - ```pip install -r requirements.txt``` : Recomendado 
     -  ```python -m pip install``` : Usar em ambientes com múltiplas versões do Python instaladas para garantir que o pip use o mesmo interpretador Python executado no momento.
     -  
-- Inicialização da aplicação: Acesse a pasta raiz do projeto no terminal e execute:
+## INICIAR A APLICAÇÃO
+Acesse a pasta raiz do projeto no terminal e execute:
 - ```flask --app app run``` : Recomendado 
 -  ```python -m flask run``` ou ```python app.py```: Usar em ambientes com múltiplas versões do Python instaladas para garantir execução na mesma versão do interpretador Python que está rodando. 
