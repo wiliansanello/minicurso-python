@@ -36,7 +36,18 @@ Scripts da raiz:
 
 ## COMO INSTALAR 
 - **Criação do banco**: Crie um arquivo .db usando o SQLite3 Studio ou DBeaver.
-- Ache a funcionalidade de execução de comandos SQL da ferramenta para executar o script ```tabela.sql```para criar as tabelas.
+### Instruções para criação do banco no SQLite3 Studio
+<img width="420" height="340" alt="image" src="https://github.com/user-attachments/assets/439e8336-54f4-4a52-8bb9-905f5765f664" />
+<img width="390" height="470" alt="image" src="https://github.com/user-attachments/assets/0fefb088-8659-4eef-8779-ba81000587dd" />
+<img width="401" height="474" alt="image" src="https://github.com/user-attachments/assets/8fe125e6-c7d8-4870-89b1-f9677b30b042" />
+
+  
+- Ache a funcionalidade de edição e execução de comandos SQL da ferramenta para executar o script ```tabela.sql``` , localizado dentro da pasta database, para criar as tabelas.
+### SQL Editor no SQLite Studio
+
+<img width="614" height="138" alt="image" src="https://github.com/user-attachments/assets/6debfa8f-7dbe-4f18-b5cd-61ad298c4042" />
+
+  
 - **Instalação de dependências**: Instala as dependências contidas no arquivo requirements.txt .
     - ```pip install -r requirements.txt``` : Recomendado 
     -  ```python -m pip install``` : Usar em ambientes com múltiplas versões do Python instaladas para garantir que o pip use o mesmo interpretador Python executado no momento.
