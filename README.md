@@ -21,7 +21,7 @@
 Scripts da raiz:
 - ```app.py```: Entry point da aplicação, script principal que inicializa a aplicação web
 
-# FERRAMENTAS ADOTADAS NO PROJETO
+## FERRAMENTAS ADOTADAS NO PROJETO
 - **Flask**: Por ser um microframework leve e permitir a criação de uma aplicação web rapidamente e com poucas linhas de código, é uma escolha pertinente para um projeto pequeno que pode ser escalado futuramente.
 - **SQLAlchemy**: ORM (Módulo que faz o mapeamento de classes para o banco de dados, permite executar comandos de manipulação de dados sem precisar escrever códigos SQL), responsável por mapear classes Python para tabelas relacionais.
 - **SQLite**: Banco de dados simples e leve, ideal para iniciar aplicações escaláveis ou para pequenos projetos e provas de conceito (POC).
